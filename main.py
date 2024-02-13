@@ -40,7 +40,7 @@ def main():
     p3 = u3.publish_post("Sale", "Toyota prius 2012", 42000, "Haifa")
 
     # Creating likes and comments
-    p2.like(u4)
+    p2.like(u4) #david like his on post
     p1.like(u4)
     p1.like(u2)
     p1.comment(u3, "Columbus's bold journey!")
