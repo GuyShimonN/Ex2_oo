@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="start network">
-      <change afterPath="$PROJECT_DIR$/FactoryPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
+    </list>
+    <list id="91a69e01-e3e0-40f2-94cd-54ff5202231d" name="Changes by orel5" comment="">
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/SocialNetwork.py">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="3" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="1" end1="2" start2="4" end2="4" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="5" end1="5" start2="7" end2="9" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="7" end1="8" start2="11" end2="22" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="12" end1="13" start2="26" end2="37" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="18" end1="19" start2="42" end2="61" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="22" end1="23" start2="64" end2="64" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="27" end1="28" start2="68" end2="68" changelist="91a69e01-e3e0-40f2-94cd-54ff5202231d" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -41,25 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.SocialNetwork.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.SocialNetwork.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Ex2_oop" />
@@ -101,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707753573543</updated>
       <workItem from="1707753588192" duration="11216000" />
-      <workItem from="1707847940103" duration="7512000" />
+      <workItem from="1707847940103" duration="19806000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -127,7 +140,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1707847406713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="start network">
+      <option name="closed" value="true" />
+      <created>1707857052748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1707857052748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +198,23 @@
     <MESSAGE value="start network" />
     <option name="LAST_COMMIT_MESSAGE" value="start network" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SocialNetwork.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1707837883631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1707910127685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

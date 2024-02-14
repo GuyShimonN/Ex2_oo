@@ -10,6 +10,7 @@ class User:
         self.follwers=[] #who see you
         self.following=[] #who you see
         self.notifications =[]
+        self.conected =True
 
     def add_follower(self,user):
         self.follwers.append(user)
@@ -31,3 +32,9 @@ class User:
             print(note)
     def get_Password(self):
         return self.password
+
+    def get_concted(self):
+        return self.conected
+
+    def set_concted(self,bolian):
+        self.conected = bolian
