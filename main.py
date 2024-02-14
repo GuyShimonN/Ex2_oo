@@ -20,16 +20,16 @@ def main():
     u5 = network.sign_up("Eve", "pass5")
 #
 #     # Creating followers
-#     u1.follow(u2)
-#     u1.follow(u5)
-#     u2.follow(u5)
-#     u2.follow(u1)
-#     u3.follow(u1)
-#     u3.follow(u2)
-#     u4.follow(u3)
-#     u4.follow(u1)
-#     u5.follow(u2)
-#     u5.follow(u4)
+    u1.follow(u2)
+    u1.follow(u5)
+    u2.follow(u5)
+    u2.follow(u1)
+    u3.follow(u1)
+    u3.follow(u2)
+    u4.follow(u3)
+    u4.follow(u1)
+    u5.follow(u2)
+    u5.follow(u4)
 #     print()
 #
 #     # Creating text post
@@ -79,8 +79,8 @@ def main():
 #     print()
 #
 #     # Using unfollow
-#     u2.unfollow(u1)
-#     u3.unfollow(u2)
+    u2.unfollow(u1)
+    u3.unfollow(u2)
 #     print()
 #
 #     # Using log_in & log_out
