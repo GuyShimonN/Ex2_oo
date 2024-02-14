@@ -66,4 +66,3 @@ class SocialNetwork:
     def print(self):
         print(f"The social network : {self.social_network}was created!")
 
-    pass
