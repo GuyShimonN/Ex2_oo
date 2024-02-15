@@ -22,6 +22,18 @@ class SalesPost(post):
                 f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
 
         pass
-    def sold(self,password):
-        if password==User.User.get_Password():
-           self.valid=False
+
+    def sold(self, password):
+        if password == self.User:
+            self.valid = False
+            print(f"{self.User.username}'s product is sold")
+
+    def discount(self, discount: str, password):
+        if password == self.User.get_Password():
+            if self.valid == True:
+                number_discount = int(discount)
+                x = 100 - number_discount
+                x = x / 100
+                self.price = int(self.price * x)
+                # Discount on Charlie product! the new price is: 37800.0
+                print("Discount on", self.User.get_username(), "product! the new price is", self.price)
