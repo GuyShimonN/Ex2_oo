@@ -19,10 +19,15 @@ class User:
     def get_username(self):
         return self.username
 
+    # def publish_post(self, postType, *args):
+    #     # send notification for all your followers
+    #     FactoryPost(self, self.username, postType, *args)
     def publish_post(self, postType, *args):
         # send notification for all your followers
-        FactoryPost(self, self.username, postType, *args)
-
+        # factory = FactoryPost()
+        a = self
+        post = FactoryPost.create_post(a, postType, *args)
+        return post
     def print_notifications(self):
         for note in self.notifications:
             print(note)

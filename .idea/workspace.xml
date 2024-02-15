@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="start network">
+    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
     </list>
-    <list id="7ae07c84-eaad-4669-a5a1-3436177ab695" name="Changes by orel5" comment="" />
+    <list id="3b2db129-d082-4f25-9e22-8445a781d621" name="Changes by orel5" comment="">
+      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +35,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/SalePost.py">
+      <ranges>
+        <range start1="5" end1="7" start2="5" end2="7" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="8" end1="13" start2="8" end2="14" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="15" end1="15" start2="16" end2="23" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="16" end1="19" start2="24" end2="40" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -99,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707753573543</updated>
       <workItem from="1707753588192" duration="11216000" />
-      <workItem from="1707847940103" duration="23185000" />
+      <workItem from="1707847940103" duration="30378000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -149,7 +168,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1707910238081</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="finish user">
+      <option name="closed" value="true" />
+      <created>1707913700914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1707913700914</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,25 +231,10 @@
     <MESSAGE value="start" />
     <MESSAGE value="start network" />
     <MESSAGE value="Changes by orel5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by orel5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SocialNetwork.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="finish user" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish user" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1707913592582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1707993363285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

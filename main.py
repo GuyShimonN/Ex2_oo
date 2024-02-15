@@ -1,6 +1,5 @@
 from SocialNetwork import SocialNetwork
 
-
 from SocialNetwork import SocialNetwork
 
 
@@ -12,14 +11,14 @@ def main():
 
     print()
 
-#     # Creating users
+    #     # Creating users
     u1 = network.sign_up("Alice", "pass1")
     u2 = network.sign_up("Bob", "pass2")
     u3 = network.sign_up("Charlie", "pass3")
     u4 = network.sign_up("David", "pass4")
     u5 = network.sign_up("Eve", "pass5")
-#
-#     # Creating followers
+    #
+    #     # Creating followers
     u1.follow(u2)
     u1.follow(u5)
     u2.follow(u5)
@@ -30,33 +29,35 @@ def main():
     u4.follow(u1)
     u5.follow(u2)
     u5.follow(u4)
-#     print()
-#
-#     # Creating text post
-#     p1 = u1.publish_post("Text", "In 1492, Christopher Columbus set sail,\n"
-#                                  "hoping to find a westward route to Asia, but instead,\n"
-#                                  "he discovered the Americas, changing the course of history forever.")
-#     # Creating image post
-#     p2 = u4.publish_post("Image", 'image1.jpg')
-#
-#     # Creating sale post
-#     p3 = u3.publish_post("Sale", "Toyota prius 2012", 42000, "Haifa")
-#
-#     # Creating likes and comments
-#     p2.like(u4) #david like his on post
-#     p1.like(u4)
-#     p1.like(u2)
-#     p1.comment(u3, "Columbus's bold journey!")
-#     p2.comment(u1, "So beautiful!")
-#     p2.like(u1)
-#     p2.like(u2)
-#     p2.like(u5)
-#     p1.comment(u5, "A pivotal moment")
-#     p3.comment(u2, "Exorbitant price")
-#     print()
-#
-#     # Price reduction of the product for sale
-#     p3.discount(10, "pass3")
+    print()
+
+    # Creating text post
+    p1 = u1.publish_post("Text", "In 1492, Christopher Columbus set sail,\n"
+                                 "hoping to find a westward route to Asia, but instead,\n"
+                                 "he discovered the Americas, changing the course of history forever.")
+    # Creating image post
+    p2 = u4.publish_post("Image", 'image1.jpg')
+
+    # Creating sale post
+    p3 = u3.publish_post("Sale", "Toyota prius 2012", 42000, "Haifa")
+
+    #     # Creating likes and comments
+    #     p2.like(u4) #david like his on post
+    #     p1.like(u4)
+    #     p1.like(u2)
+    #     p1.comment(u3, "Columbus's bold journey!")
+    #     p2.comment(u1, "So beautiful!")
+    #     p2.like(u1)
+    #     p2.like(u2)
+    #     p2.like(u5)
+    #     p1.comment(u5, "A pivotal moment")
+    #     p3.comment(u2, "Exorbitant price")
+    #     print()
+    #
+    #     # Price reduction of the product for sale
+    p3.discount(10, "pass3")
+
+
 #     print()
 #
 #     # more likes and comments
@@ -72,7 +73,7 @@ def main():
 #     print(p3)
 #
 #     # Displaying the image of the post
-#     p2.display()
+    p2.display()
 #     print()
 #
 #     p2.comment(u5, "Amazing picture!")

@@ -1,10 +1,13 @@
 from User import User
 
 
-
-
-
 class SocialNetwork:
+    _instance = None
+
+    def __new__(cls, name):  # use singleton to prevent a creating on tow object of network
+        if cls._instance is None:
+            cls._instance= super().__new__(cls)
+        return cls._instance
 
     def __init__(self, name):
         self.social_network = name
@@ -13,11 +16,12 @@ class SocialNetwork:
 
     def sign_up(self, username, password):
         if (username in self.accounts) | (len(password) < 4) | (len(password) > 8):
-            print("is not vallid try again")
+            raise ValueError("is not vallid try again")
+
         else:
             a = User(username, password)
             self.accounts[username] = a
-            print(f"The social network {username} and {password} was created!")
+
             return a
 
     def get_social_network(self):
@@ -43,4 +47,3 @@ class SocialNetwork:
 
     def print(self):
         print(f"The social network : {self.social_network}was created!")
-

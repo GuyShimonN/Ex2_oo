@@ -19,7 +19,7 @@ class post(ABC):
         #use at dictonrt the key: user value:comment
             self.comments.append(user)
             self.notifications.append(user.username,"commendet on your post")
-        
+
 
     @abstractmethod
     def __str__(self):
