@@ -5,9 +5,12 @@ class post(ABC):
       self.how_like=set()
       self.User =User
       self.comments= []
+
     def like(self,user):
         #use set beacuse i want to prevent duplicate like
         self.how_like.add(user)
+        print(f"notification to {self.User.get_username()}: {user.username} liked your post")
+
 
 
 
@@ -15,10 +18,10 @@ class post(ABC):
         #use set beacuse i want to prevent duplicate like
         self.how_like.remove(user)
 
-    def add_comment(self,user,comment):
+    def comment(self,user,comment):
         #use at dictonrt the key: user value:comment
             self.comments.append(user)
-            self.notifications.append(user.username,"commendet on your post")
+            self.User.notifications.append(f"{user.username} commendet on your post")
 
 
     @abstractmethod

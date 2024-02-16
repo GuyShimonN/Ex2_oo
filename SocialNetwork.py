@@ -45,5 +45,11 @@ class SocialNetwork:
             user.set_concted(False)
             print(f" {user.username} disconnected from the social")
 
-    def print(self):
-        print(f"The social network : {self.social_network}was created!")
+    def __str__(self):
+        #for key, value in grades.items():
+    #print(key, value)
+        p =""
+        for key, value in self.accounts.items():
+            p+=value.__str__()
+        return p
+

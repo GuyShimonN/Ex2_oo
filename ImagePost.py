@@ -9,7 +9,7 @@ class ImagePost(post):
         print(f"{self.User.username} posted a picture\n")
 
     def __str__(self):
-        pass
+        return f"{self.User.username} posted a picture\n"
 
     def display(self):
 

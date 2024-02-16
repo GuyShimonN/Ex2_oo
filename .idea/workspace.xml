@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish user">
+    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish sale post">
+      <change afterPath="$PROJECT_DIR$/Member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
@@ -15,8 +16,9 @@
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
     </list>
-    <list id="3b2db129-d082-4f25-9e22-8445a781d621" name="Changes by orel5" comment="">
-      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
+    <list id="3b2db129-d082-4f25-9e22-8445a781d621" name="Changes by orel5" comment="Changes by orel5">
+      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +39,30 @@
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/SalePost.py">
+    <file path="$PROJECT_DIR$/post.py">
       <ranges>
-        <range start1="5" end1="7" start2="5" end2="7" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="8" end1="13" start2="8" end2="14" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="15" end1="15" start2="16" end2="23" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="16" end1="19" start2="24" end2="40" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
+        <range start1="7" end1="7" start2="7" end2="8" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
+        <range start1="10" end1="10" start2="11" end2="13" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="17" end1="18" start2="20" end2="21" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="20" end1="21" start2="23" end2="24" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/User.py">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="3" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="4" end1="5" start2="6" end2="7" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="6" end1="6" start2="8" end2="10" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="8" end1="9" start2="12" end2="13" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="13" end1="17" start2="17" end2="21" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="27" end1="29" start2="31" end2="37" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
+        <range start1="45" end1="46" start2="53" end2="54" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="49" end1="50" start2="57" end2="58" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="51" end1="52" start2="59" end2="63" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
       </ranges>
     </file>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -118,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707753573543</updated>
       <workItem from="1707753588192" duration="11216000" />
-      <workItem from="1707847940103" duration="30378000" />
+      <workItem from="1707847940103" duration="36696000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -176,7 +191,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1707913700914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="finish sale post">
+      <option name="closed" value="true" />
+      <created>1708003715957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708003715957</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="Changes by orel5">
+      <option name="closed" value="true" />
+      <created>1708003725070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708003725070</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,11 +261,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="start network" />
-    <MESSAGE value="Changes by orel5" />
     <MESSAGE value="finish user" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish user" />
+    <MESSAGE value="finish sale post" />
+    <MESSAGE value="Changes by orel5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by orel5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/ImagePost.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1707993363285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708078624143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

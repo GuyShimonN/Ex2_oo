@@ -14,12 +14,16 @@ class SalesPost(post):
             f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
 
     def __str__(self):
+
         if self.valid:
-            print(
-                f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
+            return f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
+            # print(
+            #     f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
         else:
-            print(
-                f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
+            return f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
+
+            # print(
+            #     f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
 
         pass
 

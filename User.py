@@ -1,20 +1,24 @@
 from FactoryPost import FactoryPost
+from Member import Member
+from Observer import Observer
 from TextPost import TextPost
 
 
-class User:
+class User(Observer,Member):
     def __init__(self, username, password):
+        self.Number_of_posts=0
+        Observer.__init__(self)
         self.username = username
         self.password = password
-        self.follwers = set()  # who see you
+        # self.follwers = set()  # who see you
         self.Ifollowing = set()  # who you see
         self.notifications = []
         self.conected = True
 
-    def add_follower(self, user):#add to the list that follwers(who see me)
-        self.follwers.add(user)
-    def unfollower(self,user):#remove from the list the follwers(who see me)
-        self.follwers.remove(user)
+    # def add_follower(self, user):#add to the list that follwers(who see me)
+    #     self.follwers.add(user)
+    # def unfollower(self,user):#remove from the list the follwers(who see me)
+    #     self.follwers.remove(user)
 
     def get_username(self):
         return self.username
@@ -25,8 +29,12 @@ class User:
     def publish_post(self, postType, *args):
         # send notification for all your followers
         # factory = FactoryPost()
-        a = self
-        post = FactoryPost.create_post(a, postType, *args)
+
+        post = FactoryPost.create_post(self, postType, *args)
+        # self.notifications.append(post)
+        self.Number_of_posts +=1
+
+        self.notify(f"{self.username} has a new post")
         return post
     def print_notifications(self):
         for note in self.notifications:
@@ -43,9 +51,13 @@ class User:
 
     def follow(self, user):
         self.Ifollowing.add(user.get_username())
-        user.add_follower(self.username)
+        user.add_follower(self)
         print(f"{self.username} started following {user.get_username()}")
     def unfollow(self, user):
         self.Ifollowing.remove(user.get_username())
-        user.unfollower(self.username)
+        user.unfollower(self)
         print(f"{self.username} unfollowed {user.get_username()}")
+    def update(self, meesege):
+        self.notifications.append(meesege)
+    def __str__(self):
+        return f"User name: {self.username}, Number of posts: {self.Number_of_posts},Number of followers: {self.follwers.__len__()}\n"
