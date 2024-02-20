@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish sale post">
-      <change afterPath="$PROJECT_DIR$/Member.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
-    </list>
-    <list id="3b2db129-d082-4f25-9e22-8445a781d621" name="Changes by orel5" comment="Changes by orel5">
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
     </list>
@@ -38,29 +31,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/post.py">
-      <ranges>
-        <range start1="7" end1="7" start2="7" end2="8" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
-        <range start1="10" end1="10" start2="11" end2="13" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="17" end1="18" start2="20" end2="21" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="20" end1="21" start2="23" end2="24" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/User.py">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="3" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="4" end1="5" start2="6" end2="7" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="6" end1="6" start2="8" end2="10" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="8" end1="9" start2="12" end2="13" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="13" end1="17" start2="17" end2="21" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="27" end1="29" start2="31" end2="37" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
-        <range start1="45" end1="46" start2="53" end2="54" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="49" end1="50" start2="57" end2="58" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
-        <range start1="51" end1="52" start2="59" end2="63" changelist="3b2db129-d082-4f25-9e22-8445a781d621" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -73,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.SocialNetwork.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.SocialNetwork.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Ex2_oop" />
@@ -133,7 +103,11 @@
       <option name="presentableId" value="Default" />
       <updated>1707753573543</updated>
       <workItem from="1707753588192" duration="11216000" />
-      <workItem from="1707847940103" duration="36696000" />
+      <workItem from="1707847940103" duration="38679000" />
+      <workItem from="1708278460361" duration="142000" />
+      <workItem from="1708278790682" duration="19000" />
+      <workItem from="1708285470965" duration="327000" />
+      <workItem from="1708285998684" duration="5936000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -207,7 +181,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708003725070</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎-00010" summary="finish sale post">
+      <option name="closed" value="true" />
+      <created>1708078798756</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708078798756</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,10 +256,15 @@
           <line>11</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SalePost.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708078624143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708458573493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

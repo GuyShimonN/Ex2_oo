@@ -12,7 +12,7 @@ class ImagePost(post):
         return f"{self.User.username} posted a picture\n"
 
     def display(self):
-
+        print("Shows picture")
         image_rgb = plt.imread(self.image)
         plt.imshow(image_rgb)
         plt.axis('off')

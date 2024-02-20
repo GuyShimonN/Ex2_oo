@@ -9,4 +9,4 @@ class TextPost(post):
 
 
     def __str__(self):
-        return f"{self.User.username} publish  a post {self.text}\n"
+        return f"{self.User.username} publish a post:\n\"{self.text}\"\n"

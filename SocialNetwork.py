@@ -32,7 +32,7 @@ class SocialNetwork:
             user = self.accounts.get(username)
             if password == user.password:
                 user.set_concted(True)
-                print(f" {user.username}is conected to the social")
+                print(f"{user.username} connected")
             else:
                 print("the password is incorrect ")
         else:
@@ -40,16 +40,17 @@ class SocialNetwork:
 
     def log_out(self, username: str):
         if username in self.accounts:
-            print(username)
+
             user = self.accounts.get(username)
             user.set_concted(False)
-            print(f" {user.username} disconnected from the social")
+            print(f"{user.username} disconnected")
 
     def __str__(self):
         #for key, value in grades.items():
     #print(key, value)
-        p =""
+        p =f"{self.social_network} social network:\n"
         for key, value in self.accounts.items():
             p+=value.__str__()
+            p+="\n"
         return p
 
