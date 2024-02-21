@@ -29,13 +29,16 @@ class User(Observer,Member):
     def publish_post(self, postType, *args):
         # send notification for all your followers
         # factory = FactoryPost()
-
-        post = FactoryPost.create_post(self, postType, *args)
+       if self.conected:
+            post = FactoryPost.create_post(self, postType, *args)
         # self.notifications.append(post)
-        self.Number_of_posts +=1
+            self.Number_of_posts +=1
 
-        self.notify(f"{self.username} has a new post")
-        return post
+            self.notify(f"{self.username} has a new post")
+            return post
+       else:
+        raise (Exception("yore dont connected please connect first "))
+
     def print_notifications(self):
         print(f"{self.username}'s notifications:")
         for note in self.notifications:
@@ -55,9 +58,13 @@ class User(Observer,Member):
         user.add_follower(self)
         print(f"{self.username} started following {user.get_username()}")
     def unfollow(self, user):
+      if self.conected:
         self.Ifollowing.remove(user.get_username())
         user.unfollower(self)
         print(f"{self.username} unfollowed {user.get_username()}")
+      else:
+          raise (Exception("yore dont connected"))
+
     def update(self, meesege):
         self.notifications.append(meesege)
     def __str__(self):
