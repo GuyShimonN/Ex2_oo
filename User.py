@@ -68,4 +68,4 @@ class User(Observer,Member):
     def update(self, meesege):
         self.notifications.append(meesege)
     def __str__(self):
-        return f"User name: {self.username}, Number of posts: {self.Number_of_posts},Number of followers: {self.follwers.__len__()}"
+        return f"User name: {self.username}, Number of posts: {self.Number_of_posts}, Number of followers: {self.follwers.__len__()}"

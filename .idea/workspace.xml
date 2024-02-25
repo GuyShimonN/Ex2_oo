@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish test output">
+    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="update raise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,8 @@
       <workItem from="1708278790682" duration="19000" />
       <workItem from="1708285470965" duration="327000" />
       <workItem from="1708285998684" duration="6018000" />
-      <workItem from="1708521721053" duration="812000" />
+      <workItem from="1708521721053" duration="866000" />
+      <workItem from="1708887254544" duration="1988000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -193,7 +196,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708458651855</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="update raise">
+      <option name="closed" value="true" />
+      <created>1708522573428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708522573428</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
     <MESSAGE value="finish sale post" />
     <MESSAGE value="Changes by orel5" />
     <MESSAGE value="finish test output" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish test output" />
+    <MESSAGE value="update raise" />
+    <option name="LAST_COMMIT_MESSAGE" value="update raise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +282,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708458573493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708890490221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

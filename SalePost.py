@@ -19,15 +19,15 @@ class SalesPost(post):
 
         if self.valid:
             # return f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
-            print(
-                f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
+            # print(
+            #     f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
             return f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
         else:
             # return f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
-            print(
-                f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
+            # print(
+            #     f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
             return f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
         pass
@@ -45,4 +45,4 @@ class SalesPost(post):
                 x = x / 100
                 self.price = double(self.price * x)
                 # Discount on Charlie product! the new price is: 37800.0
-                print("Discount on", self.User.get_username(), "product! the new price is", self.price)
+                print("Discount on", self.User.get_username(), "product! the new price is:", self.price)
