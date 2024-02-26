@@ -8,8 +8,8 @@ class User(Observer,Member):
     def __init__(self, username, password):
         self.Number_of_posts=0
         Observer.__init__(self)
-        self.username = username
-        self.password = password
+        self._username = username
+        self._password = password
         # self.follwers = set()  # who see you
         self.Ifollowing = set()  # who you see
         self.notifications = []
@@ -21,7 +21,7 @@ class User(Observer,Member):
     #     self.follwers.remove(user)
 
     def get_username(self):
-        return self.username
+        return self._username
 
     # def publish_post(self, postType, *args):
     #     # send notification for all your followers
@@ -34,18 +34,18 @@ class User(Observer,Member):
         # self.notifications.append(post)
             self.Number_of_posts +=1
 
-            self.notify(f"{self.username} has a new post")
+            self.notify(f"{self._username} has a new post")
             return post
        else:
         raise (Exception("yore dont connected please connect first "))
 
     def print_notifications(self):
-        print(f"{self.username}'s notifications:")
+        print(f"{self._username}'s notifications:")
         for note in self.notifications:
             print(note)
 
     def get_Password(self):
-        return self.password
+        return self._password
 
     def get_concted(self):
         return self.conected
@@ -56,16 +56,16 @@ class User(Observer,Member):
     def follow(self, user):
         self.Ifollowing.add(user.get_username())
         user.add_follower(self)
-        print(f"{self.username} started following {user.get_username()}")
+        print(f"{self._username} started following {user.get_username()}")
     def unfollow(self, user):
       if self.conected:
         self.Ifollowing.remove(user.get_username())
         user.unfollower(self)
-        print(f"{self.username} unfollowed {user.get_username()}")
+        print(f"{self._username} unfollowed {user.get_username()}")
       else:
           raise (Exception("yore dont connected"))
 
     def update(self, meesege):
         self.notifications.append(meesege)
     def __str__(self):
-        return f"User name: {self.username}, Number of posts: {self.Number_of_posts}, Number of followers: {self.follwers.__len__()}"
+        return f"User name: {self._username}, Number of posts: {self.Number_of_posts}, Number of followers: {self.follwers.__len__()}"

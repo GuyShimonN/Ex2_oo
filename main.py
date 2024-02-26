@@ -87,7 +87,10 @@ def main():
 
     # Using log_in & log_out
     network.log_out("Charlie")
+
     network.log_in("Charlie", "pass3")
+
+
     print()
 
     # User printing

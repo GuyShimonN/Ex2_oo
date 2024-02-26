@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="update raise">
+    <list default="true" id="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" name="Changes" comment="finish test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SalePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalePost.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
+    </list>
+    <list id="fb45067b-63ca-431d-a4d3-5ea2bec86db4" name="Changes by orel5" comment="">
+      <change beforePath="$PROJECT_DIR$/ImagePost.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImagePost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextPost.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextPost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +35,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/main.py">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="2" changelist="fb45067b-63ca-431d-a4d3-5ea2bec86db4" />
+        <range start1="47" end1="47" start2="48" end2="49" changelist="fb45067b-63ca-431d-a4d3-5ea2bec86db4" />
+        <range start1="89" end1="89" start2="91" end2="92" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="90" end1="90" start2="93" end2="95" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/post.py">
+      <ranges>
+        <range start1="14" end1="15" start2="14" end2="14" changelist="fb45067b-63ca-431d-a4d3-5ea2bec86db4" />
+        <range start1="16" end1="18" start2="15" end2="17" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="28" end1="29" start2="27" end2="27" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="30" end1="32" start2="28" end2="29" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+        <range start1="33" end1="35" start2="30" end2="32" changelist="79963140-4d1e-4a5e-88f0-4a9bf1cc6c27" />
+      </ranges>
+    </file>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -106,7 +133,7 @@
       <workItem from="1708285470965" duration="327000" />
       <workItem from="1708285998684" duration="6018000" />
       <workItem from="1708521721053" duration="866000" />
-      <workItem from="1708887254544" duration="1988000" />
+      <workItem from="1708887254544" duration="6270000" />
     </task>
     <task id="LOCAL‎-00001" summary="start">
       <option name="closed" value="true" />
@@ -204,7 +231,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708522573428</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎-00013" summary="finish test">
+      <option name="closed" value="true" />
+      <created>1708890962089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL‎-00013" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708890962089</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,25 +298,21 @@
     <MESSAGE value="Changes by orel5" />
     <MESSAGE value="finish test output" />
     <MESSAGE value="update raise" />
-    <option name="LAST_COMMIT_MESSAGE" value="update raise" />
+    <MESSAGE value="finish test" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/ImagePost.py</url>
-          <line>11</line>
+          <line>14</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SalePost.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708890490221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ex2_oop$main.coverage" NAME="main Coverage Results" MODIFIED="1708975653648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

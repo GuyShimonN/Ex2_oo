@@ -13,7 +13,7 @@ class SalesPost(post):
         self.price = args[0][1]
         self.location = args[0][2]
         print(
-            f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
+            f"{self.User.get_username()} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
 
     def __str__(self):
 
@@ -21,21 +21,21 @@ class SalesPost(post):
             # return f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
             # print(
             #     f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n")
-            return f"{self.User.username} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
+            return f"{self.User.get_username()} posted a product for sale:\nFor sale! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
         else:
             # return f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
             # print(
             #     f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n")
-            return f"{self.User.username} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
+            return f"{self.User.get_username()} posted a product for sale:\nSold! {self.item}, price: {self.price}, pickup from: {self.location}\n"
 
         pass
 
     def sold(self, password):
-        if password == self.User.password:
+        if password == self.User.get_Password():
             self.valid = False
-            print(f"{self.User.username}'s product is sold")
+            print(f"{self.User.get_username()}'s product is sold")
 
     def discount(self, discount: str, password):
         if password == self.User.get_Password():
