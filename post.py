@@ -12,7 +12,6 @@ class post(ABC):
         #use set beacuse i want to prevent duplicate like
       if user.conected:
         if user not in self.how_like:
-           #if user.username == self.User.username:
              self.how_like.add(user)
              self.User.notifications.append(f"{user._username} liked your post")
              print(f"notification to {self.User.get_username()}: {user._username} liked your post")
