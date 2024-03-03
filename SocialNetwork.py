@@ -6,7 +6,7 @@ class SocialNetwork:
 
     def __new__(cls, name):  # use singleton to prevent a creating on tow object of network
         if cls._instance is None:
-            cls._instance= super().__new__(cls)
+            cls._instance= super(SocialNetwork, cls).__new__(cls)
         return cls._instance
     #constractor
     def __init__(self, name):
